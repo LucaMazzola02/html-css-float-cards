@@ -12,7 +12,7 @@
 }
 
 a{color: rgba(22,187,235,255);display: inline-block;text-decoration: none;margin: 5px 0 ;}
-
+p{font-size: x-large;font-family: cursive;}
 .container{
     text-align: center;
     width: 70%;
@@ -25,20 +25,22 @@ header h1{
     color: rgba(229,49,112,255);
     font-size: 50px;
     margin-bottom: 3%;
-    font-weight: bolder;
+    font-family: fantasy;
 }
-
+main{
+    margin-top: 4rem;
+}
 .third-columns {
-    height: 300px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .column{
-    width: 33.33%;
-    border: 1px solid red;
-    padding: 1.3%;
-
+    width: 31.33%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(15,14,23,255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .float-left{
@@ -50,23 +52,25 @@ img{
 }
 
 .description h2{
+    font-family: Geneva, Tahoma, sans-serif;
     color: #fff;
     font-size: 20px;
     margin: 5px 0;
 }
 .description h3{
-    color: #fff;
+    color: rgba(187,196,199,255);
     font-size: 16px;
     margin: 7px 0 0;
     font-weight: bolder;
 }
-
 .description{
     padding: 2% 12px;
     width: 70%;
     height: 89.65px;
-    background-color: rgba(15,14,23,255);
     text-align: left;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 5px #acaaaa;
 }
