@@ -26,6 +26,8 @@ header h1{
     font-size: 50px;
     margin-bottom: 3%;
     font-family: fantasy;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
 }
 main{
     margin-top: 4rem;
