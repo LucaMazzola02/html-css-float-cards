@@ -1,0 +1,27 @@
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+header h1{
+    color: rgba(229,49,112,255);
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
